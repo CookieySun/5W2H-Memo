@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "144746663606",
+    "firebase_url": "https://five-w-two-h-memo.firebaseio.com",
+    "project_id": "five-w-two-h-memo",
+    "storage_bucket": "five-w-two-h-memo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144746663606:android:6fcac07cdf873b59",
+        "android_client_info": {
+          "package_name": "com.example.kktyu.a5w2hmemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144746663606-ue79gbtocovl0392hk0on2rujfmsjlr1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kktyu.a5w2hmemo",
+            "certificate_hash": "bbf0e06faa0526a393855470e38491747148593e"
+          }
+        },
+        {
+          "client_id": "144746663606-dhau4clnalf669ubr01kd9k7s97maink.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARxDx9BghZqaZyvXgTOz95gvVYwlZE_JI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144746663606-dhau4clnalf669ubr01kd9k7s97maink.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

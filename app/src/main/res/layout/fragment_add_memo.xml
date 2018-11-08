@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMemoFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="8dp">
+
+        <TextView
+            android:id="@+id/whenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/when_" />
+
+        <EditText
+            android:id="@+id/whenText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:hint="@string/when_"
+            android:inputType="text"
+            app:layout_constraintTop_toBottomOf="@id/whenTitle" />
+
+        <TextView
+            android:id="@+id/whereTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/where"
+            app:layout_constraintTop_toBottomOf="@id/whenText" />
+
+        <EditText
+            android:id="@+id/whereText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:hint="@string/where"
+            android:inputType="text"
+            app:layout_constraintTop_toBottomOf="@id/whereTitle" />
+
+        <TextView
+            android:id="@+id/whoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/who"
+            app:layout_constraintTop_toBottomOf="@id/whereText" />
+
+
+        <EditText
+            android:id="@+id/whoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:hint="@string/who"
+            android:inputType="text"
+            app:layout_constraintTop_toBottomOf="@id/whoTitle" />
+
+        <TextView
+            android:id="@+id/whatTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/what"
+            app:layout_constraintTop_toBottomOf="@id/whoText" />
+
+        <EditText
+            android:id="@+id/whatText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/what"
+            android:inputType="text"
+            app:layout_constraintTop_toBottomOf="@id/whatTitle" />
+
+        <TextView
+            android:id="@+id/whyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/why"
+            app:layout_constraintTop_toBottomOf="@+id/whatText" />
+
+        <EditText
+            android:id="@+id/whyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:hint="@string/why"
+            android:inputType="text"
+            app:layout_constraintTop_toBottomOf="@id/whyTitle" />
+
+        <TextView
+            android:id="@+id/howTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how"
+            app:layout_constraintTop_toBottomOf="@id/whyText" />
+
+        <EditText
+            android:id="@+id/howText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:hint="@string/how"
+            android:inputType="text"
+            app:layout_constraintTop_toBottomOf="@id/howTitle" />
+
+        <TextView
+            android:id="@+id/howManyHowMatchTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how_many_how_match"
+            app:layout_constraintTop_toBottomOf="@id/howText" />
+
+        <EditText
+            android:id="@+id/howManyHowMatchText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:hint="@string/how_many_how_match"
+            android:inputType="text"
+            app:layout_constraintTop_toBottomOf="@id/howManyHowMatchTitle" />
+
+        <Button
+            android:id="@+id/resistBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/resist"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

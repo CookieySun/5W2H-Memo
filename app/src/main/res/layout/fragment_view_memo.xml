@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewMemoFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
+
+        <TextView
+            android:id="@+id/whenTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/when_"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/whenText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/when_"
+            app:layout_constraintTop_toBottomOf="@id/whenTitle"
+            tools:text="whenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhen" />
+
+        <TextView
+            android:id="@+id/whereTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/where"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintTop_toBottomOf="@id/whenText" />
+
+        <TextView
+            android:id="@+id/whereText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/where"
+            app:layout_constraintTop_toBottomOf="@id/whereTitle"
+            tools:text="wherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewhere" />
+
+        <TextView
+            android:id="@+id/whoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/who"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintTop_toBottomOf="@id/whereText" />
+
+
+        <TextView
+            android:id="@+id/whoText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/who"
+            app:layout_constraintTop_toBottomOf="@id/whoTitle"
+            tools:text="whowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowho" />
+
+        <TextView
+            android:id="@+id/whatTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/what"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintTop_toBottomOf="@id/whoText" />
+
+        <TextView
+            android:id="@+id/whatText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/what"
+            app:layout_constraintTop_toBottomOf="@id/whatTitle"
+            tools:text="whatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhat" />
+
+        <TextView
+            android:id="@+id/whyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/why"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintTop_toBottomOf="@+id/whatText" />
+
+        <TextView
+            android:id="@+id/whyText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/why"
+            app:layout_constraintTop_toBottomOf="@id/whyTitle"
+            tools:text="whywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhy" />
+
+        <TextView
+            android:id="@+id/howTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintTop_toBottomOf="@id/whyText" />
+
+        <TextView
+            android:id="@+id/howText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/how"
+            app:layout_constraintTop_toBottomOf="@id/howTitle"
+            tools:text="howhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhow" />
+
+        <TextView
+            android:id="@+id/howManyHowMatchTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how_many_how_match"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintTop_toBottomOf="@id/howText" />
+
+        <TextView
+            android:id="@+id/howManyHowMatchText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/how_many_how_match"
+            app:layout_constraintTop_toBottomOf="@id/howManyHowMatchTitle"
+            tools:text="how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow " />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

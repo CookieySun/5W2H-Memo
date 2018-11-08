@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">5W2H Memo</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="when_">when</string>
+    <string name="where">where</string>
+    <string name="who">who</string>
+    <string name="what">what</string>
+    <string name="why">why</string>
+    <string name="how">how</string>
+    <string name="how_many_how_match">how many/how match</string>
+    <string name="how_many__how_match">how many||how match</string>
+    <string name="resist">登録</string>
+</resources>
