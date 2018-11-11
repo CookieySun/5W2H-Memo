@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_weight="1"
     tools:context=".AddMemoFragment">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginHorizontal="8dp">
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
 
         <TextView
             android:id="@+id/whenTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/when_" />
+            android:text="@string/when_"
+            android:textColor="@color/colorAccent" />
 
         <EditText
             android:id="@+id/whenText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:imeOptions="actionNext"
             android:hint="@string/when_"
-            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/text_hint"
+            android:theme="@style/EditTextColorControl"
             app:layout_constraintTop_toBottomOf="@id/whenTitle" />
 
         <TextView
@@ -31,15 +37,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/where"
+            android:textColor="@color/colorAccent"
             app:layout_constraintTop_toBottomOf="@id/whenText" />
 
         <EditText
             android:id="@+id/whereText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:imeOptions="actionNext"
             android:hint="@string/where"
-            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/text_hint"
+            android:theme="@style/EditTextColorControl"
             app:layout_constraintTop_toBottomOf="@id/whereTitle" />
 
         <TextView
@@ -47,6 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/who"
+            android:textColor="@color/colorAccent"
             app:layout_constraintTop_toBottomOf="@id/whereText" />
 
 
@@ -54,9 +65,12 @@
             android:id="@+id/whoText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:imeOptions="actionNext"
             android:hint="@string/who"
-            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/text_hint"
+            android:theme="@style/EditTextColorControl"
             app:layout_constraintTop_toBottomOf="@id/whoTitle" />
 
         <TextView
@@ -64,6 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/what"
+            android:textColor="@color/colorAccent"
             app:layout_constraintTop_toBottomOf="@id/whoText" />
 
         <EditText
@@ -71,7 +86,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/what"
-            android:inputType="text"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/text_hint"
+            android:theme="@style/EditTextColorControl"
             app:layout_constraintTop_toBottomOf="@id/whatTitle" />
 
         <TextView
@@ -79,15 +97,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/why"
+            android:textColor="@color/colorAccent"
             app:layout_constraintTop_toBottomOf="@+id/whatText" />
 
         <EditText
             android:id="@+id/whyText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:imeOptions="actionNext"
             android:hint="@string/why"
-            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/text_hint"
+            android:theme="@style/EditTextColorControl"
             app:layout_constraintTop_toBottomOf="@id/whyTitle" />
 
         <TextView
@@ -95,15 +117,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/how"
+            android:textColor="@color/colorAccent"
             app:layout_constraintTop_toBottomOf="@id/whyText" />
 
         <EditText
             android:id="@+id/howText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:imeOptions="actionNext"
             android:hint="@string/how"
-            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/text_hint"
+            android:theme="@style/EditTextColorControl"
             app:layout_constraintTop_toBottomOf="@id/howTitle" />
 
         <TextView
@@ -111,15 +137,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/how_many_how_match"
+            android:textColor="@color/colorAccent"
             app:layout_constraintTop_toBottomOf="@id/howText" />
 
         <EditText
             android:id="@+id/howManyHowMatchText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:imeOptions="actionDone"
             android:hint="@string/how_many_how_match"
-            android:inputType="text"
+            android:imeOptions="actionDone"
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/white"
+            android:textColorHint="@color/text_hint"
+            android:theme="@style/EditTextColorControl"
             app:layout_constraintTop_toBottomOf="@id/howManyHowMatchTitle" />
 
         <Button
@@ -128,14 +158,18 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
+            android:layout_marginTop="24dp"
             android:layout_marginEnd="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="8dp"
+            android:background="@color/colorPrimaryDark"
             android:text="@string/resist"
+            android:textColor="@color/colorAccent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/howManyHowMatchText" />
 
     </android.support.constraint.ConstraintLayout>
 
-</FrameLayout>
+</ScrollView>

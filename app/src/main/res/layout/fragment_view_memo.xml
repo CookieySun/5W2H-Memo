@@ -24,6 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/when_"
+            android:textColor="@android:color/white"
             app:layout_constraintTop_toBottomOf="@id/whenTitle"
             tools:text="whenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhenwhen" />
 
@@ -41,6 +42,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/where"
             app:layout_constraintTop_toBottomOf="@id/whereTitle"
+            android:textColor="@android:color/white"
             tools:text="wherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewherewhere" />
 
         <TextView
@@ -58,6 +60,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/who"
             app:layout_constraintTop_toBottomOf="@id/whoTitle"
+            android:textColor="@android:color/white"
             tools:text="whowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowho" />
 
         <TextView
@@ -74,6 +77,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/what"
             app:layout_constraintTop_toBottomOf="@id/whatTitle"
+            android:textColor="@android:color/white"
             tools:text="whatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhatwhat" />
 
         <TextView
@@ -90,6 +94,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/why"
             app:layout_constraintTop_toBottomOf="@id/whyTitle"
+            android:textColor="@android:color/white"
             tools:text="whywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhywhy" />
 
         <TextView
@@ -106,6 +111,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/how"
             app:layout_constraintTop_toBottomOf="@id/howTitle"
+            android:textColor="@android:color/white"
             tools:text="howhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhowhow" />
 
         <TextView
@@ -122,6 +128,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/how_many_how_match"
             app:layout_constraintTop_toBottomOf="@id/howManyHowMatchTitle"
+            android:textColor="@android:color/white"
             tools:text="how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow how many/how matchhow " />
 
     </android.support.constraint.ConstraintLayout>
